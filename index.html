@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style/style.css">
     <style>
     </style>
 
@@ -14,17 +14,16 @@
     <header>
         <div class="jumbotron">
             <h1>Nabil</h1>
-            <p>Simple Portofolio Of Me</p>
         </div>
 
-        <nav>
+        <nav class="sticky">
             <div class="logo">
-            <h1>Nabil</h1>
+                <a href="#thisIsMe" class="page-scroll"><h1>This Is Me</h1></a>
             </div>
             <ul class="">
-                <li><a class="navItem" href="#thisIsMe">This Is Me!</a></li>
-                <li><a class="navItem" href="#hobby">Hobby</a></li>
-                <li><a class="navItem" href="#educationBackground">Education Background</a></li>
+                <li><a class="page-scroll" href="#biodata">Nabil</a></li>
+                <li><a class="page-scroll" href="#hobby">Hobby</a></li>
+                <li><a class="page-scroll" href="#educationBackground">Education Background</a></li>
             </ul>
 
             <div class="menu-toggle">
@@ -67,10 +66,10 @@
         </div>
 
         <aside>
-            <article class="profile card">
+            <article class="profile card" id="biodata">
                 <header>
-                    <figure>
-                        <img src="" alt="Nabil">
+                    <figure class="profile">
+                        <img src="image/profile.jpg" alt="Nabil">
                     </figure>
                 </header>
 
@@ -91,7 +90,7 @@
                         </tr>
                         <tr>
                             <th>Social Media</th>
-                            <td><a href="">Instagram</a></td>
+                            <td><a href="https://www.instagram.com/mnabil_adzikri/" target="_blank">Instagram</a></td>
                         </tr>
                     </table>
                 </section>
@@ -104,6 +103,7 @@
     </footer>
 
     <!--  -->
-    <script src="assets/script.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

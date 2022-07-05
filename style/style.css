@@ -20,16 +20,25 @@ nav {
     /* padding: 10px 0; */
     height: 70px;
     align-items: center;
-    position: sticky;
     color: #F1EEE9;
     letter-spacing: 1px;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 nav ul {
-    display: flex;
+    display: flex;  
     list-style: none;
     width: 25%;
     justify-content: space-between;
+}
+
+.logo > a {
+    color: #F1EEE9;
+    text-decoration: none;
 }
 
 nav ul li a {
@@ -78,13 +87,6 @@ main {
     overflow: auto;
 }
 
-.featured-image {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
-
 .card {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border: 8px solid #73777B;
@@ -129,11 +131,17 @@ th {
     padding-right: 20px;
 }
 
+.profile {
+    padding-bottom: 20px;
+}
+
 .profile header {
     text-align: center;
 }
 
 .profile img {
+    border-radius: 100%;
+    border: 5px solid #73777B;
     width: 200px;
 }
 
@@ -225,7 +233,7 @@ th {
              top: -50px;
              width: 100%;
              height: 0;
-             background-color: #EC994B;
+             background-color: #73777B;
              justify-content: space-evenly;
              flex-direction: column;
              align-items: center;
